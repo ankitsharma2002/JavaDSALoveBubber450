@@ -10,7 +10,6 @@ public class Min_Max_Array {
         for (int n:arr){
             sortedArray.add(n);
         }
-        
         Collections.sort(sortedArray);
         
         ArrayList<Integer> result=new ArrayList<>();
